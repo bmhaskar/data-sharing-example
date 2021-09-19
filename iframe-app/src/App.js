@@ -14,18 +14,16 @@ function App() {
 
 
 <p>An iframe with no borders:</p>
-<iframe 
-// src="http://localhost:8082/v1/dim?token=xa3g4XjxvH"
- src="http://localhost:5000/?master=true"
-title="Spinwheel" width="100%" height="200" >
+<iframe
+  src="http://localhost:5000/?master=true"
+  title="Spinwheel" width="100%" height="200" >
 </iframe>
 <br /> <br />
 
 <p>2nd Iframe</p>
-{loadIframe && <iframe 
-// src="http://localhost:8082/v1/dim?token=xa3g4XjxvH"
- src="http://localhost:5000/"
-title="Spinwheel" width="100%" height="200" >
+{loadIframe && <iframe
+  src="http://localhost:5000/"
+  title="Spinwheel" width="100%" height="200" >
 </iframe> }
 <button>
   Footer
